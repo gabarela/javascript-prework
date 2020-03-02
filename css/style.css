@@ -9,7 +9,45 @@ body {
 
 .container {
   max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.buttons {
+  padding: 20px;
+}
+
+.messages {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #2a3166;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #ee7879 50%, transparent 50%);
+  border-color: #ee7879;
+  transition: all 1s;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
